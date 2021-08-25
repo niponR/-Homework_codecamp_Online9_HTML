@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HomeWork2</title>
+
+    <style>
+        table, th, td {
+            width: 50%;
+            text-align: left;
+        }
+        th, td {
+  padding: 5px;
+  text-align: left;    
+}
+form {
+    align-items: center;
+}
+
+input, select {
+    height: 25px;
+}
+
+        
+    </style>
+
+</head>
+<body>
+
+   <form action="#" style="width: 400px; background-color: rgb(238, 241, 238);">
+      
+    <div style="background: ghostwhite ;">
+       <table style="text-align: left;" align="center">
+        <div style="margin-top: 0;">
+           <tr>
+               <th colspan="2">Flying from <br>
+                <select name="City" style="width: 145px;">
+                    <option>Bangkok</option>
+                    <option>Ubon</option>
+                    <option>Chiang Mai</option>
+                    <option>Phuket</option>
+                    <option>Udon</option>
+                    </select>
+               </td>
+               </th>
+               
+               <th colspan="2">To <br>
+                <select name="City" style="width: 145px;">
+                    <option>Bangkok</option>
+                    <option>Ubon</option>
+                    <option>Chiang Mai</option>
+                    <option>Phuket</option>
+                    <option>Udon</option>
+                    </select>
+               </th>
+           </tr>
+  
+
+           <tr >
+               <th colspan="2">Departing <br>
+                <input type="date" id="departing" >
+            </th>
+            <th colspan="2">Returning
+                <input type="date" id="returning">
+            </th>
+           </tr>
+
+           <tr>
+               <th>Adult <br>
+                <select id="adult" style="width: 65px;">
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                </select>
+               </th>
+
+               <th>Child <br>
+                <select id="adult" style="width: 65px;">
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                </select>
+               </th>
+
+               <th>Infant <br>
+                <select id="infant" style="width: 65px;">
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                </select>
+               </th>
+               <th style="color: red; width: 65px;">Currency <br>
+                <select id="currency">
+                    <option>THB</option>
+                    <option>USD</option>
+                </select>
+            </th>
+           </tr>
+           <tr>
+       </table>
+       <br>
+    </div>
+   
+    <table style="margin-left: 40px;">
+        <th colspan="4">
+            <input type="submit" value="Search" style="background-color: tomato; color: white; height: 30px; width: 75px;" >
+        </th>
+    </table>
+    
+   </form>
+</body>
+</html>

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab 3</title>
+
+    <style>
+        table, th, td {
+            border: 1px solid black;
+            width: 50%;
+            text-align: left;
+        }
+        th, td {
+  padding: 5px;
+  text-align: left;    
+}
+        
+    </style>
+</head>
+
+<body>
+    <table align="center">
+        <tr>
+            <th colspan="3" style="text-align: center;">Pizza Shop 2.0</th>
+        </tr>
+
+        <tr>
+            <th>Name</th>
+            <th>
+                <input type="text" name="P_form">
+            </th>
+        </tr>
+
+        <tr>
+            <th>Pizza Topping</th>
+            <th>
+                <input type="radio" name="topping_1"> 
+                <label">Supreme</label><br>
+                <input type="radio" name="topping_2">
+                <label>Vegetarian</label><br>
+                <input type="radio" name="topping_3">
+                <label>Hawaiian</label>
+            </th>
+        </tr>
+
+        <tr>
+            <th>Pizza Sauce</th>
+            <th>
+                <select id="cars" name="cars">
+                    <option value="sauce_1">Tomato 1</option>
+                    <option value="sauce_2">Tomato 2</option>
+                    <option value="sauce_3">Tomato 3</option>
+                    <option value="sauce_4">Tomato 4</option>
+                  </select>
+            </th>
+        </tr>
+
+        <tr>
+            <th>Optional Extras</th>
+            <th>
+                <input type="checkbox" name="extra_1">
+                <label >Extra Cheese</label>
+                <input type="checkbox" name="extra_2">
+                <label >Gulten Free Base</label>
+            </th>
+        </tr>
+
+        <tr>
+            <th colspan="2">
+                <label>Delivery Instructions:</label><br>
+                <textarea name="delivery" role="5" cols="60" ></textarea>
+            </th>
+        </tr>
+
+        <tr>
+            <th colspan="2">
+                <input type="submit" value="Send my Order">
+            </th>
+        </tr>
+    </table>
+
+</body>
+</html>
